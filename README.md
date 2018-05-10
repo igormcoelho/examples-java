@@ -8,6 +8,7 @@ You will need to setup a few things before getting started with these examples.
 **Required**
  * [neo-devpack-java](https://github.com/neo-project/neo-devpack-java) – Java Native Interfaces (JNI) for Neo's methods
  * [neo-compiler](https://github.com/neo-project/neo-compiler) – Converter from Java bytecode to Neo bytecode
+ * Java Compiler – Please be aware that neoj imposes a limitation on the expected .class format. Currently, [class format is expected to be 52](https://github.com/neo-project/neo-compiler/blob/master/neoj/JVM/java.cecil/loader/ClassFile.cs#L64), which is only compatible with Java 8 (not Java 9 according to [Wikipedia Java Class Reference](https://en.wikipedia.org/wiki/Java_class_file)).
 
 
  **Advised**
